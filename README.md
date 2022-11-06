@@ -25,7 +25,7 @@ Com os campos obrigatórios (Nome, CPF e E-mail).
 </h5>
 
 <h3> Métodos:</h3>
-<h5>
+
 POST: 
   Link: http://localhost:8081/colaborador
  
@@ -37,7 +37,7 @@ GET: CPF
 
 DEL: 
   Link: http://localhost:8081/colaborador/{CPF}
-</h5>
+
 
 <div align="center">
  <h3>Tecnologias: </h3>
