@@ -8,9 +8,8 @@ Cada colaborador contém: Id, nome, cpf, e-mail, telefone, data de nascimento e 
 Cada setor contém: Id e Nome.
 Com os campos obrigatórios (Nome, CPF e E-mail).
 
-<div align="center">
 ![diagrama](https://user-images.githubusercontent.com/82176039/200175708-73dc7b24-b050-4976-9e1c-ef344dcc815a.jpg)
-</div>
+
 
 ## Integração do sistema:
 1. O arquivo deve ser importado para dentro do eclipse com a opção de "Existing Maven Projects".
@@ -31,11 +30,11 @@ GET: CPF
 DEL: 
   Link: http://localhost:8081/colaborador/{CPF}
   
-<div align="center">
+
  ## Tecnologias
 ![tecnologias](https://user-images.githubusercontent.com/82176039/200175684-d4bec1c6-d41f-4a94-82d8-90b660477c4c.png) 
 
-  
+  <div align="center">
 ![Iron Man](https://github.com/AngeloChiarella/Agenda-Contatos/blob/main/000.gif)
   <h1>  #CSPlayer</h1
   </div>
