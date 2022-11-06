@@ -28,7 +28,7 @@ Com os campos obrigatórios (Nome, CPF e E-mail).
 <h5>
 POST: 
   Link: http://localhost:8081/colaborador
-
+ 
 GET: ALL
   Link: http://localhost:8081/colaborador
   
