@@ -26,17 +26,13 @@ Com os campos obrigatórios (Nome, CPF e E-mail).
 
 <h3> Métodos:</h3>
 
-POST: 
-  Link: http://localhost:8081/colaborador
+POST: http://localhost:8081/colaborador
  
-GET: ALL
-  Link: http://localhost:8081/colaborador
+GET/ALL: http://localhost:8081/colaborador
   
-GET: CPF
-  Link: http://localhost:8081/colaborador/{CPF}
+GET/CPF: http://localhost:8081/colaborador/{CPF}
 
-DEL: 
-  Link: http://localhost:8081/colaborador/{CPF}
+DEL: http://localhost:8081/colaborador/{CPF}
 
 
 <div align="center">
