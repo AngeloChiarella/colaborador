@@ -31,5 +31,6 @@ GET: CPF
 DEL: 
   Link: http://localhost:8081/colaborador/{CPF}
   
-           ![Iron Man](https://github.com/AngeloChiarella/Agenda-Contatos/blob/main/000.gif)
-           #CSPlayer
+![Iron Man](https://github.com/AngeloChiarella/Agenda-Contatos/blob/main/000.gif)
+  
+  #CSPlayer
