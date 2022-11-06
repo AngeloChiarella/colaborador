@@ -17,12 +17,11 @@ Com os campos obrigatórios (Nome, CPF e E-mail).
 </div>
 
 <h3> Integração do sistema:</h3>
-<h5>
+
 1. O arquivo deve ser importado para dentro do eclipse com a opção de "Existing Maven Projects".
 2. Subir o projeto pela classe DesafioDev1Application.
 3. Verificar no arquivo "application.properties" as configurações do Banco de dados.
 4. A aplicação estará disponível na porta 8081.
-</h5>
 
 <h3> Métodos:</h3>
 
