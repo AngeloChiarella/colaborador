@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "1ecb481d-d706-44fa-9084-8bcbd857be29",
+		"name": "Colaborador",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15570222"
+	},
+	"item": [
+		{
+			"name": "SaveOrUpdate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cpf\": \"4385509200\",\r\n    \"nome\": \"Angelo Chiarella Fernandes\",\r\n    \"email\": \"chiarella.gaetano@gmail.com\",\r\n    \"telefone\": \"12345678900\",\r\n    \"setorId\": \"1\",\r\n    \"dataNascimento\": \"1993-12-15\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/colaborador",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"colaborador"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCpf",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cpf\": \"12345678900\",\r\n    \"nome\": \"Andson Chiarella\",\r\n    \"email\": \"chiarella.gaetano@gmail.com\",\r\n    \"telefone\": \"13991460000\",\r\n    \"setorId\": \"1\",\r\n    \"dataNascimento\": \"1985-02-13\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/colaborador/43855092800",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"colaborador",
+						"43855092800"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAll",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cpf\": \"12345678900\",\r\n    \"nome\": \"Andson Chiarella\",\r\n    \"email\": \"chiarella.gaetano@gmail.com\",\r\n    \"telefone\": \"13991460000\",\r\n    \"setorId\": \"1\",\r\n    \"dataNascimento\": \"1985-02-13\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/colaborador",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"colaborador"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cpf\": \"12345678900\",\r\n    \"nome\": \"Andson Chiarella\",\r\n    \"email\": \"chiarella.gaetano@gmail.com\",\r\n    \"telefone\": \"13991460000\",\r\n    \"setorId\": \"1\",\r\n    \"dataNascimento\": \"1985-02-13\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/colaborador/43855092800",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"colaborador",
+						"43855092800"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
