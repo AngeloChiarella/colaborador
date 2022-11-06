@@ -9,16 +9,13 @@ Com os campos obrigatórios (Nome, CPF e E-mail).
 ![diagrama](https://user-images.githubusercontent.com/82176039/200175708-73dc7b24-b050-4976-9e1c-ef344dcc815a.jpg)
 
 
-Integração do sistema:
+## Integração do sistema:
 1. O arquivo deve ser importado para dentro do eclipse com a opção de "Existing Maven Projects".
 2. Subir o projeto pela classe DesafioDev1Application.
 3. Verificar no arquivo "application.properties" as configurações do Banco de dados.
 4. A aplicação estará disponível na porta 8081.
 
-## Tecnologias
-![tecnologias](https://user-images.githubusercontent.com/82176039/200175684-d4bec1c6-d41f-4a94-82d8-90b660477c4c.png)
-
-Métodos:
+## Métodos:
 POST: 
   Link: http://localhost:8081/colaborador
 
@@ -30,6 +27,9 @@ GET: CPF
 
 DEL: 
   Link: http://localhost:8081/colaborador/{CPF}
+  
+ ## Tecnologias
+![tecnologias](https://user-images.githubusercontent.com/82176039/200175684-d4bec1c6-d41f-4a94-82d8-90b660477c4c.png) 
   
 ![Iron Man](https://github.com/AngeloChiarella/Agenda-Contatos/blob/main/000.gif)
   
