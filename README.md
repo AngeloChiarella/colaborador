@@ -42,8 +42,9 @@ DEL:
 <div align="center">
  <h3>Tecnologias: </h3>
 <img src="https://user-images.githubusercontent.com/82176039/200175684-d4bec1c6-d41f-4a94-82d8-90b660477c4c.png" width="500px"/>
+</div>
 
-
-<img src="https://github.com/AngeloChiarella/Agenda-Contatos/blob/main/000.gif"/>
-  </div>
+<div  width="50px">
 <h1>#CSPlayer</h1>
+<img src="https://github.com/AngeloChiarella/Agenda-Contatos/blob/main/000.gif"/>
+</div>
