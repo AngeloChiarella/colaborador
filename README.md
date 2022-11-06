@@ -1,6 +1,5 @@
-<div align="center">
 # Colaborador-Setor
-</div
+
 ## API REST em Java e MySQL.
   API REST criado em Java e MySQL que gerencia e disponibiliza um CRUD de colaboradores e de seus respectivos Setores. 
 Neste sistema contém, Endpoint para cadastro, edição, exclusão e listagem de colaboradores. 
