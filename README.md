@@ -44,7 +44,5 @@ DEL:
 <img src="https://user-images.githubusercontent.com/82176039/200175684-d4bec1c6-d41f-4a94-82d8-90b660477c4c.png" width="500px"/>
 </div>
 
-<div align="center">
-![Iron Man](https://github.com/AngeloChiarella/Agenda-Contatos/blob/main/000.gif)
-  <h1>  #CSPlayer</h1
-</div>
+<img src="https://github.com/AngeloChiarella/Agenda-Contatos/blob/main/000.gif"/>
+<h1>#CSPlayer</h1
